@@ -2,6 +2,45 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## File structure
+shopify-plus/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Auth/
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   ├── ForgotPassword.js    (optional)
+│   │   │   ├── AuthForm.js
+│   │   ├── Cart/
+│   │   │   ├── Cart.js
+│   │   │   ├── CartItem.js
+│   │   │   ├── CartSummary.js
+│   │   │   └── CartButton.js
+│   │   ├── Checkout/
+│   │   │   ├── Checkout.js
+│   │   │   ├── AddressForm.js
+│   │   │   ├── PaymentForm.js
+│   │   │   └── OrderSummary.js
+│   │   ├── Product/
+│   │   │   ├── ProductList.js
+│   │   │   ├── Product.js
+│   │   │   ├── ProductImage.js
+│   │   │   └── ProductRating.js    (optional)
+│   │   ├── User/
+│   │   │   ├── Profile.js
+│   │   │   ├── OrderHistory.js
+│   │   │   ├── EditProfile.js      (optional)
+│   │   │   └── ChangePassword.js   (optional)
+│   │   └── Home.js
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+
 ## Available Scripts
 
 In the project directory, you can run:
